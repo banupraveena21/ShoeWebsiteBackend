@@ -129,12 +129,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CORS_ORIGIN_WHITELIST = [
-    "http://localhost:5173",# Vite default port
     "https://shoe-website-frontend-two.vercel.app/",
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
     "https://shoe-website-frontend-two.vercel.app/",
 ]
 
